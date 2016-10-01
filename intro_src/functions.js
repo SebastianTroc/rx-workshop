@@ -17,7 +17,7 @@ const mutableNumber = {
     return this;
   },
   show: function() {
-    console.log(this);
+    console.log(this.value);
     return this;
   }
 };
